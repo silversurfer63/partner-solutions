@@ -82,7 +82,7 @@ In this step we will perform some simple data loading tasks, to load in CSV file
 
 3. From the INFASAMPLEDATA location, drag the **orders.txt** folder over to the right hand pane. Note that a dialog box appears asking if we want to load all the files in this folder to a single target table. In this case, we only have a single file, but we do want to load this into a single table. Click **OK**.
 
-4. Next, drag the **lineitems.txt** folder over to the right hand pane. Again, click **OK** to load all files into a single table.
+4. Next, drag the **lineitem.txt** folder over to the right hand pane. Again, click **OK** to load all files into a single table.
 
 
 5. Click the pencil icon for the **LINEITEM** task to view the settings for this load task.
@@ -90,8 +90,6 @@ In this step we will perform some simple data loading tasks, to load in CSV file
     ![View settings for LINEITEM load task](images/cc_viewsettings.png)
 
     
-
-    ![TEST](F:\GitHub\learning-library\data-management-library\oracle-infa\data-load\images\cc_viesettings.png)
 
     
 
