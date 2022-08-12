@@ -6,10 +6,6 @@ In this lab, you will navigate to Informatica UI, create a mapping and execute i
 
 Estimated Lab Time: 20 minutes
 
-### About <Product/Technology> (Optional)
-
-Enter background information here about the technology/feature or product used in this lab - no need to repeat what you covered in the introduction. Keep this section fairly concise. If you find yourself needing more than to sections/paragraphs, please utilize the "Learn More" section.
-
 ### Objectives
 
 In this lab, you will:
