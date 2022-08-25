@@ -2,42 +2,30 @@
 
 ## About this Workshop
 
-This introduction covers the complete "parent" workshop. Use this text to set up the story for the workshop. Be engaging - what will the learner get from spending their time on this workshop?
+Oracle and Informatica have formed a business and technical partnership.  In this LiveLab we want to introduce you to one of Informatica's pillar services (Data Integration) and demonstrate how you can easily get up and running in the Oracle Cloud Infrastructure.
 
-Estimated Workshop Time: -- hours -- minutes (This estimate is for the entire workshop - it is the sum of the estimates provided for each of the labs included in the workshop.)
-
-*You may add an option video, using this format: [](youtube:YouTube video id)*
-
-  [](youtube:zNKxJjkq0Pw)
+Estimated Workshop Time: -- 60 minutes
 
 ### Objectives
 
-*List objectives for the workshop*
-
 In this workshop, you will learn how to:
-* Provision
-* Setup
-* Load
-* Query
+* Provision an Oracle Autonomous Database (ADB)and an Informatica Secure Agent.
+* Setup the necessary environment to allow a user to build an Informatica mapping that will allow for the transformation of data using an ADB instance.
+* Load data from an Oracle Object Storage bucket into a ADB.
+* Transform data by combining data from a number of tables and columns in ADB into a format needed for analytics using Informatica Data Integration.
 
-### Prerequisites (Optional)
-
-*List the prerequisites for this lab using the format below. Fill in whatever knowledge, accounts, etc. is needed to complete the lab. **Do NOT list** each previous lab as a prerequisite.*
+### Prerequisites
 
 This lab assumes you have:
 * An Oracle account
-* All previous labs successfully completed
-
-*This is the "fold" - below items are collapsed by default*
-
-In general, the Introduction does not have Steps.
+* An Informatica Account
+* A basic understanding of the Oracle Cloud and the use of data management tools
 
 ## Learn More
 
-*(optional - include links to docs, white papers, blogs, etc)*
-
-* [URL text 1](http://docs.oracle.com)
-* [URL text 2](http://docs.oracle.com)
+* [Informatica Trials](https://www.informatica.com/trials.html)
+* [Oracle Free Tier](https://www.oracle.com/cloud/free/)
+* [Oracle Documents](http://docs.oracle.com)
 
 ## Acknowledgements
 * **Author** - <Name, Title, Group>

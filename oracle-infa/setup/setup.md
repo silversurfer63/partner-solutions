@@ -2,23 +2,20 @@
 
 ## Introduction
 
-This lab walks you through the steps to download INFA secure agent MarketPlace image and configure secure agent to connect with ADW.
+This lab walks you through the steps to download an Informatica Secure Agent from the OCI Market Place, configure the secure agent to connect with an ADW instance and run a sample mapping.
 
-*Describe the lab in one or two sentences, for example:* This lab walks you through the steps to ...
+Estimated Lab Time: -- 60 Minutes
 
-Estimated Lab Time: -- minutes
-
-### About <Product/Technology> (Optional)
-Enter background information here about the technology/feature or product used in this lab - no need to repeat what you covered in the introduction. Keep this section fairly concise. If you find yourself needing more than to sections/paragraphs, please utilize the "Learn More" section.
+### About Informatica Intelligent Data Management Cloud
+The Informatica Intelligent Data Management Cloud.
 
 ### Objectives
 
-*List objectives for this lab using the format below*
-
 In this lab, you will:
-* Objective 1
-* Objective 2
-* Objective 3
+* Install and Configure an Informatica Secure Agent 
+* Create an Autonomous Database (ADB) instance
+* Create a connection between the Secure Agent and ADB
+* Build and execute and Informatica Data Integration Mapping
 
 ### Prerequisites (Optional)
 
@@ -70,15 +67,16 @@ This lab assumes you have:
 
     ```
     Adding code examples
+
   	Indentation is important for the code example to appear inside the step
-    Multiple lines of code
+  	Multiple lines of code
   	<copy>Enclose the text you want to copy in <copy></copy>.</copy>
-    ```
+  	```
 
 4. Code examples that include variables
 
 	```
-  <copy>ssh -i <ssh-key-file></copy>
+    <copy>ssh -i <ssh-key-file></copy>
   ```
 
 ## Learn More
