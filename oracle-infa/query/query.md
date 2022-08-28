@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will navigate to Informatica UI, create a mapping and execute it.
+In this lab, you will navigate to Informatica IDMC UI, create a mapping and execute it.
 
 Estimated Lab Time: 20 minutes
 
@@ -19,9 +19,9 @@ This lab assumes you have:
 
 * Provisioned and Oracle ADB instance
 * Have loaded data into the ADW
-* Access to Informatica Intelligent Data Management Cloud (IDMC)
-* Configured Informatica secure agent
-* Configured Wallet and Instantclient in the secure agent
+* Have Access to Informatica Intelligent Data Management Cloud (IDMC)
+* Configured the Informatica secure agent
+* Configured Wallet in the secure agent
 
 ### Tasks in this LiveLabs
 * Task 1: Create a connection to Oracle Autonomous Database
@@ -67,8 +67,7 @@ An Oracle Autonomous Database connection is required to read and write data from
 
 5. Click **Test Connection** button.  "The test for this connection was successful" message will display if the above configuration is correct.
 
-	![OADB connection](images/picture4.png)
-
+   ![OADB Connection](images/picture4.png)
 
 ## Task 2: Create a Project folder
 
@@ -76,7 +75,8 @@ Project folder can be created to store assets for specific project.  In a projec
 
 1. Click the service selector at the top left, then select **Data Integration** service.
 
-	![Service selector](images/picture5.png)
+   ![Date Integration](images/picture5.png)
+
 
 2. Click **Explore** on the left panel.
 
@@ -86,11 +86,11 @@ Project folder can be created to store assets for specific project.  In a projec
 
 5. Click **Save**.
 
-	![Save](images/picture6.png)
+   ![Save](images/picture6.png)
 
 6. Click **LiveLabs** project.
 
-	![LiveLabs](images/picture7.png)
+   ![LiveLabs](images/picture7.png)
 
 
 ## Task 3: Create a mapping to transform orders and lineitem tables
@@ -108,13 +108,13 @@ In this lab, you will create a mapping to read two tables (Orders and Lineitem) 
 
 4. Click **Create** <BR>
 
-	![NewMapping](images/picture8.png)
+   ![New Mapping](images/picture8.png)
 
 5. Under properties, enter **m_Orders_Lineitem_PDO** in Name field.
 
 6. Ensure that Location is **LiveLabs**. If not, click **Browse** and select it.
 
-	![Mapping](images/picture9.png)
+   ![Mapping](images/picture9.png)
 
 7. Click **Save**
 
@@ -180,27 +180,27 @@ Add Lineitem table as another data source.
 
 1. From the transformation palette, drag **Source** transform and drop it in the mapping canvas.
 
-	![srcLineitem](images/picture19.png)
+   ![Config LineItem](images/picture19.png)
 
 2. In the General tab, enter **src_Lineitem** in the Name field.
 
 3. In the Source tab, select the connection created in Task 1 in the Connection dropdown field.
 
-4.	Click **Select** to select a source table.
+4. Click **Select** to select a source table.
 
-5.	From the source objects list, select **LINEITEM** table.
+5. From the source objects list, select **LINEITEM** table.
 
-6.	Click **OK**. <BR>
+6. Click **OK**. <BR>
 
-7.	In the Fields tab, remove all fields except **l_orderkey**, **l_extendedprice**, **l_discount**, **l_tax**.
+7. In the Fields tab, remove all fields except **l_orderkey**, **l_extendedprice**, **l_discount**, **l_tax**.
 
 8. Click **Yes**. <BR>
 
-	![srcLineitemFields](images/picture20.png)
+   ![Remove Fields](images/picture20.png)
 
 9. Now, edit the metadata and change the data type for **l_extendedprice**, **l_discount**, **l_tax** to decimal.
 
-	![srcLineitemFields](images/picture21.png)
+   ![Extend Price](images/picture21.png)
 
 10.	Click **Save** to save work in progress.
 
@@ -426,36 +426,33 @@ Let’s configure Pushdown Optimization (PDO) in the Mapping Task and execute it
 
 ### View job execution
 
-1.	Click **My Jobs** to monitor the job execution.
+1. Click **My Jobs** to monitor the job execution.
 
-	![job](images/picture42.png)
+   ![job](images/picture42.png)
 
-2.	Click **Refresh** icon when the “Updates available” message appears.
+2. Click **Refresh** icon when the “Updates available” message appears.
 
-3.	When the job is completed, make sure Status is **Success**.
+3. When the job is completed, make sure Status is **Success**.
 
-	![success](images/picture43.png)
+   ![success](images/picture43.png)
 
-4.	Drill down to the completed job by clicking the instance name.  Then click Download Session Log to view the log.  
+4. Drill down to the completed job by clicking the instance name.  Then click Download Session Log to view the log.  
 
-	![download](images/picture44.png)
+   ![download](images/picture44.png)
 
 5. In the log you will see a message indicating that Pushdown Optimization is successfully enabled. 
 
-	![pdosuccess](images/picture45.png)
+   ![PDO Success](images/picture45.png)
 
-6.	You will also see an INSERT SQL statement that Informatica generated for execution in Oracle Autonomous Database.
+6. You will also see an INSERT SQL statement that Informatica generated for execution in Oracle Autonomous Database.
 
 You have successfully completed this LiveLabs.
 
 ## Learn More
 
-*(optional - include links to docs, white papers, blogs, etc)*
-
-* [URL text 1](http://docs.oracle.com)
-* [URL text 2](http://docs.oracle.com)
+* [Informatica IDMC Data Integration](https://docs.informatica.com/integration-cloud/cloud-data-integration/current-version.html)
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Month Year>
+* **Author** - <Eddy Widjaja, Solutions Director, Informatica>
+* **Contributors** -  <Larry Fumagalli, Oracle Autonomous Data Base Product Management>
+* **Last Updated By/Date** - <Larry Fumagalli, August 2022>

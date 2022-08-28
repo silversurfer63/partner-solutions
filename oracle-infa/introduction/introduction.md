@@ -9,7 +9,7 @@ Estimated Workshop Time: -- 60 minutes
 ### Objectives
 
 In this workshop, you will learn how to:
-* Provision an Oracle Autonomous Database (ADB)and an Informatica Secure Agent.
+* Install and Configure an Informatica Secure Agent.
 * Setup the necessary environment to allow a user to build an Informatica mapping that will allow for the transformation of data using an ADB instance.
 * Load data from an Oracle Object Storage bucket into a ADB.
 * Transform data by combining data from a number of tables and columns in ADB into a format needed for analytics using Informatica Data Integration.
@@ -20,14 +20,16 @@ This lab assumes you have:
 * An Oracle account
 * An Informatica Account
 * A basic understanding of the Oracle Cloud and the use of data management tools
+* Created an Oracle Autonomous Database instance
+* Completed the Autonomous Database 15 Minute Quick Start LiveLab
 
 ## Learn More
 
 * [Informatica Trials](https://www.informatica.com/trials.html)
 * [Oracle Free Tier](https://www.oracle.com/cloud/free/)
 * [Oracle Documents](http://docs.oracle.com)
+* [Oracle ADB 15 Minute Quick Start LiveLab](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=928&clear=RR,180&session=822983470552)
 
 ## Acknowledgements
-* **Author** - <Name, Title, Group>
-* **Contributors** -  <Name, Group> -- optional
-* **Last Updated By/Date** - <Name, Month Year>
+* **Author** - <Larry Fumagalli, Autonomous Database Product Management>
+* **Last Updated By/Date** - <Larry Fumagalli, August 2022>
