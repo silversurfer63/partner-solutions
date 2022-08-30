@@ -172,5 +172,5 @@ This Lab is now complete you can now go to the next lab.
 
 ## Acknowledgements
 
-* **Author** - Larry Fumagalli,  Autonomous Database Product Management
-* **Last Updated By/Date** - Larry Fumagalli, Autonomous Database Product Management, September 2022
+* **Author** - Larry Fumagalli,  Outbound Product Management
+* **Last Updated By/Date** - Larry Fumagalli, Outbound Product Management, September 2022

@@ -453,6 +453,6 @@ You have successfully completed this LiveLabs.
 * [Informatica IDMC Data Integration](https://docs.informatica.com/integration-cloud/cloud-data-integration/current-version.html)
 
 ## Acknowledgements
-* **Author** - <Eddy Widjaja, Solutions Director, Informatica>
-* **Contributors** -  <Larry Fumagalli, Oracle Autonomous Data Base Product Management>
-* **Last Updated By/Date** - <Larry Fumagalli, August 2022>
+* **Author** - Eddy Widjaja, Solutions Director, Informatica
+* **Contributors** -  Larry Fumagalli, Outbound Product Management
+* **Last Updated By/Date** - Larry Fumagalli, August 2022

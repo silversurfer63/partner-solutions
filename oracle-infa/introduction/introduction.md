@@ -31,5 +31,5 @@ This lab assumes you have:
 * [Oracle ADB 15 Minute Quick Start LiveLab](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=928&clear=RR,180&session=822983470552)
 
 ## Acknowledgements
-* **Author** - <Larry Fumagalli, Autonomous Database Product Management>
-* **Last Updated By/Date** - <Larry Fumagalli, August 2022>
+* **Author** - Larry Fumagalli, Outbound Product Management
+* **Last Updated By/Date** - Larry Fumagalli, August 2022

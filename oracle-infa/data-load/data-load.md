@@ -113,6 +113,6 @@ This completes the Data Load lab. We now have two tables loaded into the Autonom
 
 ## Acknowledgements
 
-* **Author** - Larry Fumagalli,  Autonomous Database Product Management
+* **Author** - Larry Fumagalli, Outbound Product Management
 * **Contributors** -  Marty Gubar, Autonomous Database Product Management
-* **Last Updated By/Date** - Mike Matthews, Autonomous Database Product Management, September 2021
+* **Last Updated By/Date** - Larry Fumagalli, Outbound Product Management, September 2022
